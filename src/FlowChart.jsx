@@ -29,7 +29,7 @@ function FlowChart() {
 
           <div style={styles.imageContainer}>
             <img
-              src="./assets/flowchart.png"
+              src="../assets/flowchart.png"
               alt="Flow Chart"
               style={styles.chartImage}
             />
