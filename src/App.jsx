@@ -6,7 +6,8 @@ import FlowChart from "./FlowChart";
 
 function App() {
   return (
-    <Router>
+    // Add the basename prop to your Router
+    <Router basename="/Project">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/formulas" element={<Formulas />} />

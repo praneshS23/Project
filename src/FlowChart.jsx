@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import ParticlesBackground from "./components/ParticlesBackground";
+import ParticlesBackground from "./components/ParticlesBackground"; // No import needed for files in public directory
 
 function FlowChart() {
   const navigate = useNavigate();
@@ -29,7 +29,7 @@ function FlowChart() {
 
           <div style={styles.imageContainer}>
             <img
-              src="../assets/flowchart.png"
+              src="/Project/assets/flowchart.png"
               alt="Flow Chart"
               style={styles.chartImage}
             />
