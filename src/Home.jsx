@@ -296,13 +296,13 @@ function Home() {
       >
         <Link to="/formulas" style={styles.link}>
           <button style={styles.button}>
-            <span>Go to Formulas</span>
+            <span>Formulas</span>
             <span style={styles.buttonIcon}>→</span>
           </button>
         </Link>
         <Link to="/flowchart" style={styles.link}>
           <button style={styles.button}>
-            <span>Go to Flow Chart</span>
+            <span>Workflow</span>
             <span style={styles.buttonIcon}>→</span>
           </button>
         </Link>
